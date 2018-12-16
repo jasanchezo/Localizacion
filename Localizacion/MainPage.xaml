@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:Localizacion" x:Class="Localizacion.MainPage">
+    <StackLayout>
+        
+        <Label  Text="Latitud" />
+        <Label  x:Name="lblLat" />
+        <Label  Text="Longitud" />
+        <Label  x:Name="lblLon" />
+        <Label  Text="Altitud" />
+        <Label  x:Name="lblAlt" />
+        
+    </StackLayout>
+</ContentPage>
